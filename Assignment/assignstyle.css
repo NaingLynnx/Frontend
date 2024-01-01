@@ -1,0 +1,25 @@
+.l-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1%;
+}
+.c-box{
+   width: 31%;
+   padding: 1%;
+   border: 1px solid #000;
+
+}
+.c-box--p{
+    border: none;
+    width: 100%;
+}
+.l-container>.c-box:nth-child(3){
+    background-color: red;
+}
+.l-container>.c-box:nth-child(7){
+    background-color: red;
+}
+.l-container>.c-box:nth-child(11){
+    background-color: red;
+}
