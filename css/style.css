@@ -1,19 +1,70 @@
 .l-header {
-  width: 100%;
+  width: auto;
 }
-.l-header .l-header-logo {
+.l-header__logo {
   text-align: center;
   background-color: #000;
   color: #fff;
   padding: 7px;
 }
-.l-header .l-header-nav {
+.l-header__nav {
   display: flex;
   justify-content: center;
-  background-color: #ff0;
+  width: 100%;
 }
-.l-header .l-header-nav .nav__menu {
+.l-header__nav .nav-menu {
+  width: 100%;
   display: flex;
-  justify-content: space-between;
-  width: 100;
+  justify-content: center;
+  text-align: center;
+}
+.l-header__nav .nav-menu__link {
+  background-color: #eec4dc;
+  border-right: 3px solid #fff;
+  border-left: 3px solid #fff;
+  list-style: none;
+  width: 33.3333333333%;
+  padding: 10px;
+}
+.l-header__nav .nav-menu__link a {
+  text-decoration: none;
+}
+
+.l-block {
+  width: 1170px;
+  margin: 0 auto;
+}
+.l-block__img {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 16px;
+  justify-content: space-evenly;
+}
+.l-block__img .l-block-box {
+  width: 30%;
+}
+.l-block__img .l-block-box__img {
+  width: 100%;
+}
+.l-block__img .l-block-box__link {
+  width: 100%;
+}
+.l-block__img .l-block-box__link a {
+  text-decoration: none;
+  text-align: center;
+}
+.l-block.l-block-faq .faq__box h2 {
+  background-color: #eec4dc;
+}
+
+h2 {
+  background-color: #ff0;
+  padding: 10px;
+}
+
+.l-footer {
+  background-color: black;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
