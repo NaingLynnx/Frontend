@@ -1,0 +1,19 @@
+.l-header {
+  width: 100%;
+}
+.l-header .l-header-logo {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding: 7px;
+}
+.l-header .l-header-nav {
+  display: flex;
+  justify-content: center;
+  background-color: #ff0;
+}
+.l-header .l-header-nav .nav__menu {
+  display: flex;
+  justify-content: space-between;
+  width: 100;
+}/*# sourceMappingURL=style.css.map */
