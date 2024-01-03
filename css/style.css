@@ -1,0 +1,77 @@
+.l-header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+.l-header h1 {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding: 7px;
+}
+.l-header__nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.l-header__nav .nav-menu {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.l-header__nav .nav-menu__link {
+  background-color: #eec4dc;
+  border-right: 3px solid #fff;
+  border-left: 3px solid #fff;
+  list-style: none;
+  width: 33.3333333333%;
+  padding: 10px;
+}
+
+.l-block {
+  width: 1170px;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+.l-block__img {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.l-block__img .box__img {
+  width: 290px;
+}
+.l-block__img .box__img__img {
+  width: 100%;
+}
+.l-block__img .box__link {
+  text-align: center;
+  color: #fff;
+  transform: skewX(150deg);
+  box-shadow: 2px 2px 12px rgb(251, 176, 1);
+  transition: all 1s linear;
+}
+.l-block__img .box__link a {
+  text-decoration: none;
+}
+.l-block__img .box__link:hover {
+  transition: background 1s ease;
+  box-shadow: 15px 10px 12px #f00;
+}
+.l-block.l-block-faq .faq__box h2 {
+  background-color: #eec4dc;
+}
+
+h2 {
+  background-color: #ff0;
+  padding: 10px;
+}
+
+.l-footer {
+  background-color: black;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

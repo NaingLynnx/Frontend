@@ -1,0 +1,124 @@
+// body{
+//     background-color: antiquewhite;
+// }
+// .l-header{
+//     width: 100%;
+// }
+// .l-header-logo{
+//     text-align: center;
+//     background-color: #000;
+//     color: #fff;
+//     padding: 7px;
+// }
+// .l-header-nav{
+//     display: flex;
+//     justify-content: center;
+//     & .nav__menu{
+//         display: flex;
+//         gap: 10px 16px;
+//     }
+// }
+.l-header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+  
+
+h1{
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 7px;
+    }
+
+&__nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+
+    & .nav-menu{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        &__link{
+            background-color: #eec4dc;
+            border-right:3px solid #fff;
+            border-left:3px solid #fff;
+            list-style: none;
+            width: calc(100%/3);
+            padding: 10px;
+        }       
+    }
+}
+}
+
+
+.l-block{
+    width: 1170px;
+    margin: 0 auto;
+    margin-top: 10%;
+    &__img{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+
+        .box__img{
+        width: 290px;
+        &__img{
+            width: 100%;
+        }
+            }
+
+            .box__link{
+                text-align: center;
+                // background-color: #f00;
+                color: #fff;
+                transform: skewX(150deg);
+                box-shadow: 2px 2px 12px rgb(251, 176, 1);
+
+                transition: all 1s linear;
+                a{
+                    text-decoration: none;
+                }
+                &:hover{
+                    // background-color: #f00;
+                    // transform: scale(1.08);
+                    transition: background 1s ease;
+                    box-shadow: 15px 10px 12px #f00;
+
+                
+                }
+            }
+        }
+    
+    &__box{
+        
+    }
+
+    &.l-block-faq{
+
+        .faq__box{
+            h2{
+                background-color: #eec4dc;
+            }
+        }
+        }
+}
+h2{
+    background-color: #ff0;
+    padding: 10px;
+}
+
+.l-footer{
+    background-color: black;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+
