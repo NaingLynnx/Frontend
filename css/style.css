@@ -1,7 +1,9 @@
 .l-header {
-  width: auto;
+  width: 100%;
+  position: fixed;
+  top: 0;
 }
-.l-header__logo {
+.l-header h1 {
   text-align: center;
   background-color: #000;
   color: #fff;
@@ -33,25 +35,24 @@
 .l-block {
   width: 1170px;
   margin: 0 auto;
+  margin-top: 10%;
 }
 .l-block__img {
   display: flex;
   flex-wrap: wrap;
   gap: 10px 16px;
-  justify-content: space-evenly;
 }
-.l-block__img .l-block-box {
-  width: 30%;
+.l-block__img__box {
+  width: 290px;
 }
-.l-block__img .l-block-box__img {
+.l-block__img__box__img {
   width: 100%;
 }
-.l-block__img .l-block-box__link {
+.l-block__img__box__link {
   width: 100%;
 }
-.l-block__img .l-block-box__link a {
-  text-decoration: none;
-  text-align: center;
+.l-block__img__box__link .c-btn {
+  background-color: #f00;
 }
 .l-block.l-block-faq .faq__box h2 {
   background-color: #eec4dc;
